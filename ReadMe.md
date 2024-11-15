@@ -23,8 +23,8 @@ move([0, 1, 0, 0, 0], 'left')   # Output: [1, 0, 0, 0, 0]
 move([1, 0, 0, 0, 0], 'left')   # Output: [1, 0, 0, 0, 0]
 ```
 
-# Problem 2: Approximate π Using the Leibniz Series
-### File: ``leibniz_series_exercise.py`
+## Problem 2: Approximate π Using the Leibniz Series
+### File: `leibniz_series_exercise.py`
 
 ## Overview
 In this assignment, you will implement a function to approximate the value of π using the Leibniz series. The Leibniz series is a well-known infinite series that can be used to approximate π.
@@ -35,20 +35,16 @@ The formula for the Leibniz series is:
 \]
 
 The task is to create a Python function that approximates π using the first `n_terms` terms of the series.
-
----
-
-## Problem Description
-### File: `leibniz_series_exercise.py`
-
 You need to implement a function `approximate_pi(n_terms)` that approximates the value of π based on the first `n_terms` terms of the Leibniz series.
+The function takes one parameter:
+-  An integer `n_terms` representing the number of terms to use in the series.
 
-### Task:
-- **Input**: An integer `n_terms` representing the number of terms to use in the series.
-- **Output**: A floating-point number that is the approximation of π based on the first `n_terms` terms of the Leibniz series.
+The function return one value:
+- A floating-point number that is the approximation of π based on the first `n_terms` terms of the Leibniz series.
 
 ### Example:
 ```python
 approximate_pi(10)  # Output: ~3.0418396189
 approximate_pi(100)  # Output: ~3.1315929036
 approximate_pi(1000)  # Output: ~3.1405926538
+```
