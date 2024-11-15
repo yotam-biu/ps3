@@ -21,9 +21,10 @@ The function should:
 move([0, 0, 0, 1, 0], 'right')  # Output: [0, 0, 0, 0, 1]
 move([0, 1, 0, 0, 0], 'left')   # Output: [1, 0, 0, 0, 0]
 move([1, 0, 0, 0, 0], 'left')   # Output: [1, 0, 0, 0, 0]
+```
 
-
-# Problem: Approximate π Using the Leibniz Series
+# Problem 2: Approximate π Using the Leibniz Series
+### File: ``leibniz_series_exercise.py`
 
 ## Overview
 In this assignment, you will implement a function to approximate the value of π using the Leibniz series. The Leibniz series is a well-known infinite series that can be used to approximate π.
