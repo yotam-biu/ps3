@@ -30,9 +30,9 @@ move([1, 0, 0, 0, 0], 'left')   # Output: [1, 0, 0, 0, 0]
 In this assignment, you will implement a function to approximate the value of π using the Leibniz series. The Leibniz series is a well-known infinite series that can be used to approximate π.
 
 The formula for the Leibniz series is:
-\[
+$$
 \pi = 4 \sum_{n=0}^{\infty} \frac{(-1)^n}{2n+1}
-\]
+$$
 
 The task is to create a Python function that approximates π using the first `n_terms` terms of the series.
 You need to implement a function `approximate_pi(n_terms)` that approximates the value of π based on the first `n_terms` terms of the Leibniz series.
