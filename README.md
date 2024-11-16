@@ -46,3 +46,8 @@ approximate_pi(10)  # Output: ~3.0418396189
 approximate_pi(100)  # Output: ~3.1315929036
 approximate_pi(1000)  # Output: ~3.1405926538
 ```
+
+
+---
+
+For additional guidance, refer to the accompanying Jupyter Notebook (.ipynb) files, which provide step-by-step instructions and examples to help you complete the tasks.
