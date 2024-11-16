@@ -1,7 +1,7 @@
 # Python Exercises: Edge Cases and Approximate π
 
 ## Overview
-This assignment consists of two separate exercises that will challenge you to think critically about edge cases in programming and implement a mathematical approximation of π.
+This assignment consists of two exercises designed to help you understand lists and loops in Python. You will be required to modify two Python files: `edge_case_exercise.py` and `leibniz_series_exercise.py`.
 
 ---
 
