@@ -1,4 +1,4 @@
-from edge_case_exercise import edge_case_exercise.ipynb
+from edge_case_exercise import move
 
 def test_edge_case():
     print("start the test!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
